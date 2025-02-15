@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megamart | Home</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="top-header d-flex align-items-center py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a href="/">
+                <img width="150" src="images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="البحث عن منتجات"
+              />
+            </div>
+            <div
+              class="col-md-4 left-header d-flex justify-content-end align-items-center d-none d-lg-flex"
+            >
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasCart"
+                role="button"
+                aria-controls="offcanvasCart"
+              >
+                <span>السلة</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasLogin"
+                role="button"
+                aria-controls="offcanvasLogin"
+              >
+                <span>الدخول</span>
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <a href="#">
+                <span>المفضلة</span>
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button
+              class="navbar-toggler menu-icon"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <i class="fa-solid fa-bars nav-mobile-icon"></i>
+            </button>
+            <div>
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasLogin"
+                class="navbar-toggler menu-icon"
+                type="button"
+              >
+                <i class="fa-solid fa-user nav-mobile-icon"></i>
+              </button>
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasCart"
+                class="navbar-toggler menu-icon"
+                type="button"
+              >
+                <i class="fa-solid fa-cart-shopping nav-mobile-icon"></i>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/"
+                    >الرئيسية</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">موبايل</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">لابتوب</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">ساعات ذكية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أجهزة العاب فيديو</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">تابلت</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الاكسسوارات</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Slider -->
+    <section class="slider mt-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <div
+              id="main-slider"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#main-slider"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#main-slider"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#main-slider"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="eshop.html">
+                    <img
+                    src="images/slider/slider1.png"
+                    class="d-block w-100"
+                    alt="Slider1"
+                  />
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="product.html">
+                    <img
+                    src="images/slider/slider2.png"
+                    class="d-block w-100"
+                    alt="Slider2"
+                  />
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/slider/slider3.png"
+                    class="d-block w-100"
+                    alt="Slider3"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#main-slider"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#main-slider"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-2 mt-md-0">
+            <img width="100%" src="images/slider/slider4.png" alt="Slider4" />
+            <img
+              width="100%"
+              class="mt-2 img-fluid"
+              src="images/slider/slider5.png"
+              alt="Slider5"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Slider -->
+
+    <!-- Start Categories -->
+    <section class="categories mt-5">
+      <div class="container-fluid">
+        <h2 class="section-title">التصنيفات</h2>
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6">
+          <div class="col mt-2">
+            <a href="category.html">
+              <div class="card overflow-hidden cat">
+                <img src="images/categories/category1.jpg" alt="" />
+              </div>
+              <h3 class="text-center section-title mt-3">موبايل</h3>
+            </a>
+          </div>
+          <div class="col mt-2">
+            <a href="category.html">
+              <div class="card overflow-hidden cat">
+                <img src="images/categories/category2.jpg" alt="" />
+              </div>
+              <h3 class="text-center section-title mt-3">لابتوب</h3>
+            </a>
+          </div>
+          <div class="col mt-2">
+            <a href="category.html">
+              <div class="card overflow-hidden cat">
+                <img src="images/categories/category3.png" alt="" />
+              </div>
+              <h3 class="text-center section-title mt-3">تابلت</h3>
+            </a>
+          </div>
+          <div class="col mt-2">
+            <a href="category.html">
+              <div class="card overflow-hidden cat">
+                <img src="images/categories/category4.png" alt="" />
+              </div>
+              <h3 class="text-center section-title mt-3">ساعات ذكية</h3>
+            </a>
+          </div>
+          <div class="col mt-2">
+            <a href="category.html">
+              <div class="card overflow-hidden cat">
+                <img src="images/categories/category5.jpg" alt="" />
+              </div>
+              <h3 class="text-center section-title mt-3">اكسسوارات كمبيوتر</h3>
+            </a>
+          </div>
+          <div class="col mt-2">
+            <a href="category.html">
+              <div class="card overflow-hidden cat">
+                <img src="images/categories/category6.jpg" alt="" />
+              </div>
+              <h3 class="text-center section-title mt-3">اكسسوارات موبايل</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Categories -->
+
+    <!-- Start Products -->
+    <section class="products">
+      <div class="container-fluid">
+        <div>
+          <div class="btn-group mb-4 filter-button-group">
+            <button data-filter=".new" type="button" class="btn f-btn active">
+              أحدث المنتجات
+            </button>
+            <button data-filter=".best-seller" type="button" class="btn f-btn">
+              الأعلى مبيعا
+            </button>
+            <button data-filter=".discount" type="button" class="btn f-btn">
+              خصومات
+            </button>
+          </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 all-products">
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/1.jpg" alt="product" />
+              <div class="product-info">
+                <h3>سامسونغ S23</h3>
+                <p>أحدث اجهزة السامسونغ</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 226$</span>
+                  <span>348$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/i14-pro.jpg" alt="product" />
+              <div class="product-info">
+                <h3>ايفون 14 برو</h3>
+                <p>تصميم أنيق وكاميرا ممتازة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 373$</span>
+                  <span>574$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/s23-ultra.png" alt="product" />
+              <div class="product-info">
+                <h3>S23 الترا</h3>
+                <p>أداء قوي وشاشة مذهلة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 417$</span>
+                  <span>643$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/mackbook-air-m2.png" alt="product" />
+              <div class="product-info">
+                <h3>ماك بوك آير M2</h3>
+                <p>خفيف، سريع وبطارية ممتازة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 519$</span>
+                  <span>799$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/xps-13.png" alt="product" />
+              <div class="product-info">
+                <h3>دل إكس بي إس 13</h3>
+                <p>تصميم جذاب وأداء رائع</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 910$</span>
+                  <span>1400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/apple-watch-s8.png" alt="product" />
+              <div class="product-info">
+                <h3>أبل ووتش سيري 8</h3>
+                <p>تتبع الصحة، تصميم عصري</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 230$</span>
+                  <span>355$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/s21.png" alt="product" />
+                <div class="product-info">
+                  <h3>سامسونغ S21</h3>
+                  <p>كاميرا قوية وأداء سريع</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 720$</span>
+                    <span>800$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/cannon-r6.png" alt="product" />
+              <div class="product-info">
+                <h3>كاميرا كانون EOS R6</h3>
+                <p>تصوير احترافي وأداء مذهل</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 1494$</span>
+                  <span>2299$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/mobile/mi11.png" alt="product" />
+              <div class="product-info">
+                <h3>شاموي MI 11</h3>
+                <p>بطارية تدوم طويلا</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 540$</span>
+                  <span>600$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img
+                src="images/products/microsoft-surface-pro.png"
+                alt="product"
+              />
+              <div class="product-info">
+                <h3>سيرفيس برو 9</h3>
+                <p>تنقل سهل وتعدد الاستخدامات</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 406$</span>
+                  <span>625$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/hp-spectre.png" alt="product" />
+              <div class="product-info">
+                <h3>HP Spectre x360</h3>
+                <p>تصميم مرن وأداء قوي</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 910$</span>
+                  <span>1400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/apple-airpods.png" alt="product" />
+              <div class="product-info">
+                <h3>سماعات آبل إيربودز برو</h3>
+                <p>جودة صوت عالية وعزل ممتاز</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 162$</span>
+                  <span>250$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 new">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/oneplus11.png" alt="product" />
+              <div class="product-info">
+                <h3>هاتف ون بلس 11</h3>
+                <p>أداء سريع وتصميم جذاب</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 best-seller">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/samsung-watch-5.png" alt="product" />
+              <div class="product-info">
+                <h3>سامسونغ جالكسي ووتش 5</h3>
+                <p>ميزات رياضية وصحة متطورة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 285$</span>
+                  <span>435$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 best-seller">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/ipad-pro.png" alt="product" />
+              <div class="product-info">
+                <h3>آيباد برو 12.9</h3>
+                <p>شاشة مذهلة وأداء استثنائي</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 best-seller">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/tap8.png" alt="product" />
+              <div class="product-info">
+                <h3>سامسونغ جالكسي تاب S8</h3>
+                <p>ترفيه ومهام متعددة بسهولة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 best-seller">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/mix-master3.png" alt="product" />
+              <div class="product-info">
+                <h3>ماوس لوجيتك MX Master 3</h3>
+                <p>دقة عالية وراحة استخدام</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 best-seller">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/razer-blackwindow.png" alt="product" />
+              <div class="product-info">
+                <h3>كيبورد ميكانيكي Razer BlackWidow</h3>
+                <p>تجربة كتابة مريحة وسريعة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 best-seller">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img
+                src="images/products/anker-wirless-charger.png"
+                alt="product"
+              />
+              <div class="product-info">
+                <h3>شاحن لاسلكي أنكر</h3>
+                <p>شحن سريع وفعال للهواتف</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 discount">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/iphone14-cover.png" alt="product" />
+              <div class="product-info">
+                <h3>كوفر آيفون 14</h3>
+                <p>حماية أنيقة وتصميم جذاب</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 discount">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/google-pixel7.png" alt="product" />
+              <div class="product-info">
+                <h3>هاتف جوجل بيكسل 7</h3>
+                <p>كاميرا مذهلة وأداء ممتاز</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 discount">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/sony-wf.png" alt="product" />
+              <div class="product-info">
+                <h3>سماعات سوني WF-1000XM4</h3>
+                <p>عزل صوت رائع وتجربة استماع</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 discount">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/asus-laptop.png" alt="product" />
+              <div class="product-info">
+                <h3>لابتوب آسوس زينبوك 14</h3>
+                <p>تصميم رفيع وأداء قوي</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 discount">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/huawai-tablet.png" alt="product" />
+              <div class="product-info">
+                <h3>تابلت هواوي ماتي باد 11</h3>
+                <p>شاشة رائعة وتجربة سلسة</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 discount">
+            <div class="card overflow-hidden">
+              <div class="quick-icons">
+                <a href="#quickProduct" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/products/samsung-cover.png" alt="product" />
+              <div class="product-info">
+                <h3>كوفر سامسونغ جالكسي S23</h3>
+                <p>حماية متينة وتصميم أنيق</p>
+                <div class="stars mb-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  اضافة الى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Products -->
+
+    <!-- Start New Products Swiper -->
+    <section class="featured-products">
+      <div class="container-fluid">
+        <h2 class="section-title">المنتجات المميزة</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/s23-ultra.png" alt="product" />
+                <div class="product-info">
+                  <h3>S23 الترا</h3>
+                  <p>أداء قوي وشاشة مذهلة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mackbook-air-m2.png" alt="product" />
+                <div class="product-info">
+                  <h3>ماك بوك آير M2</h3>
+                  <p>خفيف، سريع وبطارية ممتازة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/xps-13.png" alt="product" />
+                <div class="product-info">
+                  <h3>دل إكس بي إس 13</h3>
+                  <p>تصميم جذاب وأداء رائع</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/tap8.png" alt="product" />
+                <div class="product-info">
+                  <h3>سامسونغ جالكسي تاب S8</h3>
+                  <p>ترفيه ومهام متعددة بسهولة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mix-master3.png" alt="product" />
+                <div class="product-info">
+                  <h3>ماوس لوجيتك MX Master 3</h3>
+                  <p>دقة عالية وراحة استخدام</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/razer-blackwindow.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>كيبورد ميكانيكي Razer BlackWidow</h3>
+                  <p>تجربة كتابة مريحة وسريعة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/asus-laptop.png" alt="product" />
+                <div class="product-info">
+                  <h3>لابتوب آسوس زينبوك 14</h3>
+                  <p>تصميم رفيع وأداء قوي</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/huawai-tablet.png" alt="product" />
+                <div class="product-info">
+                  <h3>تابلت هواوي ماتي باد 11</h3>
+                  <p>شاشة رائعة وتجربة سلسة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 swiper-slide">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/samsung-cover.png" alt="product" />
+                <div class="product-info">
+                  <h3>كوفر سامسونغ جالكسي S23</h3>
+                  <p>حماية متينة وتصميم أنيق</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </div>
+    </section>
+    <!-- End New Products Swiper -->
+
+    <!-- Start Special Products -->
+    <div class="container-fluid pt-5">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            data-bs-toggle="tab"
+            href="#mobile"
+            >موبايل</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#laptop">لابتوب</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#tablet">تابلت</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane fade mt-5 show active" id="mobile">
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/s21.png" alt="product" />
+                <div class="product-info">
+                  <h3>سامسونغ S21</h3>
+                  <p>كاميرا قوية وأداء سريع</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 720$</span>
+                    <span>800$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/mi11.png" alt="product" />
+                <div class="product-info">
+                  <h3>شاموي MI 11</h3>
+                  <p>بطارية تدوم طويلا</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 540$</span>
+                    <span>600$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/iphone13.png" alt="product" />
+                <div class="product-info">
+                  <h3>ايفون 13</h3>
+                  <p>تصميم انيق وتجربة مميزة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 900$</span>
+                    <span>1000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/p40-pro.png" alt="product" />
+                <div class="product-info">
+                  <h3>هوواوي P40 Pro</h3>
+                  <p>شاشة كبيرة ووضوح عال</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 585$</span>
+                    <span>650$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/reno5.png" alt="product" />
+                <div class="product-info">
+                  <h3>أوبو رينو 5</h3>
+                  <p>ميزات رائعة وسعر مناسب</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 450$</span>
+                    <span>500$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/mobile/one-plus9.png" alt="product" />
+                <div class="product-info">
+                  <h3>One Plus 9</h3>
+                  <p>أداء متميز وسرعة فائقة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade mt-5" id="laptop">
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/asus-laptop.png" alt="product" />
+                <div class="product-info">
+                  <h3>لابتوب آسوس</h3>
+                  <p>تصميم رفيع وأداء قوي</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 450$</span>
+                    <span>500$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/laptop/laptop-acer.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>لابتوب ايسر</h3>
+                  <p>أداء عالي وسرعة ممتازة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 450$</span>
+                    <span>500$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/laptop/laptop-dell.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>لابتوب ديل</h3>
+                  <p>تصميم انيق وموثوق</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 630$</span>
+                    <span>700$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/laptop/laptop-hp.png" alt="product" />
+                <div class="product-info">
+                  <h3>لابتوب اتش بي</h3>
+                  <p>شاشة رائعة وتجربة مميزة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 540$</span>
+                    <span>600$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/laptop/laptop-lenovo.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>لابتوب لينوفو</h3>
+                  <p>خفيف الوزن وسهل الحمل</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 495$</span>
+                    <span>550$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/laptop/laptop-macbook.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>لابتوب ماك بوك</h3>
+                  <p>أداء قوي وتصميم فخم</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 1080$</span>
+                    <span>1200$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade mt-5" id="tablet">
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/tablets/ipad-pro.png" alt="product" />
+                <div class="product-info">
+                  <h3>ابل Ipad Pro</h3>
+                  <p>شاشة رائعة وأداء قوي</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 900$</span>
+                    <span>1100$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/tablets/tab-s7.png" alt="product" />
+                <div class="product-info">
+                  <h3>Galaxy Tab S7</h3>
+                  <p>تصميم أنيق وتجربة متميزة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 585$</span>
+                    <span>650$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/tablets/surface-pro7.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>Surface Pro 7</h3>
+                  <p>مرونة وأداء عالي</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 810$</span>
+                    <span>900$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/tablets/matepad-pro.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>هوواوي Matepad Pro</h3>
+                  <p>بطارية تدوم طويلا</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 250$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/products/tablets/fire-hd.png" alt="product" />
+                <div class="product-info">
+                  <h3>Amazon Fire HD 10</h3>
+                  <p>سعر مناسب ومميزات جيدة</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 135$</span>
+                    <span>150$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3">
+              <div class="card overflow-hidden">
+                <div class="quick-icons">
+                  <a href="#quickProduct" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/products/tablets/lenovov-tap-p11.png"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>Lenovo Tab P11 Pro</h3>
+                  <p>أداء جيد وسعر معقول</p>
+                  <div class="stars mb-2">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 360$</span>
+                    <span>400$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم اضافة المنتج للسلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    اضافة الى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Special Products -->
+
+    <!-- Start Ads -->
+    <section class="ads py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 gap-3 flex-md-nowrap m-1">
+          <div
+            class="col ad position-relative d-flex justify-content-center overflow-hidden p-0"
+          >
+            <div class="overlay"></div>
+            <img class="img-fluid" src="images/ads/banner-watch-1.jpg" alt="" />
+            <div class="ad-info">
+              <h3>أحدث الساعات العالمية</h3>
+              <p>لا تفوت الفرصة لاقتناء أهم الماركات اللعالمية</p>
+              <button class="btn btn-danger">تسوق الان</button>
+            </div>
+          </div>
+          <div
+            class="col ad position-relative d-flex justify-content-center overflow-hidden p-0"
+          >
+            <div class="overlay"></div>
+            <img
+              class="img-fluid"
+              src="images/ads/computer accessories.png"
+              alt=""
+            />
+            <div class="ad-info">
+              <h3>أفضل اكسسوارات الكمبيوتر</h3>
+              <p>احصل على الأداء المثالي لكل استخدام</p>
+              <button class="btn btn-danger">تسوق الان</button>
+            </div>
+          </div>
+          <div
+            class="col ad position-relative d-flex justify-content-center overflow-hidden p-0"
+          >
+            <div class="overlay"></div>
+            <img
+              class="img-fluid"
+              src="images/ads/mobile accessories.png"
+              alt=""
+            />
+            <div class="ad-info">
+              <h3>اكسسوارات هاتف مميزة وجديدة</h3>
+              <p>أضف لمسة شخصية لهاتفك اليوم</p>
+              <button class="btn btn-danger">تسوق الان</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Ads -->
+
+    <!-- Start Week End Products -->
+    <section class="week-end">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col">
+            <h4 class="mini-title">عروض اليوم</h4>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/mobile/s21.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>سامسونغ S21</p>
+                    <p>720$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/tablets/matepad-pro.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>هوواوي Matepad Pro</p>
+                    <p>250$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/1.jpg"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>سامسونغ S23</p>
+                    <p>410$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="mini-title">الخصومات الاسبوعية</h4>
+
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/tablets/lenovov-tap-p11.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>Lenovo Tab P11 Pro</p>
+                    <p>360$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/mobile/iphone13.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>ايفون 13</p>
+                    <p>900$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/s23-ultra.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>سامسونغ S23 الترا</p>
+                    <p>649$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="mini-title">وصل حديثا</h4>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/tablets/ipad-pro.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>ابل Ipad Pro</p>
+                    <p>900$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/i14-pro.jpg"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>ايفون 14 برو</p>
+                    <p>475$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/mackbook-air-m2.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>ماك بوك آير M2</p>
+                    <p>799$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="mini-title">خصومات حصرية</h4>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/apple-watch-s8.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>أبل ووتش سيري 8</p>
+                    <p>370$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/samsung-watch-5.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>جالكسي ووتش 5</p>
+                    <p>319$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="product.html">
+                <div class="product-sm d-flex align-items-center">
+                  <img
+                    class="img-fluid w-25"
+                    src="images/products/google-pixel7.png"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>جوجل بكسل 7</p>
+                    <p>420$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Week End Products -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col f1 mb-3">
+            <a href="/">
+              <img class="w-75" src="images/logo-white.png" alt="Logo" />
+            </a>
+            <p class="text-white">
+              متجرنا مهتم بالجودة والخامة النظيفة ونسعى لتوفير كل جديد وكل ما
+              يرضي عملائنا
+            </p>
+            <ul class="navbar-nav text-white">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                عمان - شارع المدينة المنورة
+              </li>
+              <li><i class="fa-solid fa-phone"></i>0795579224</li>
+              <li><i class="fa-solid fa-envelope"></i>info@megamart.com</li>
+            </ul>
+          </div>
+          <div class="col f2 mb-3">
+            <h3>أهم الروابط</h3>
+            <ul class="navbar-nav">
+              <li><a href="/">الرئيسية</a></li>
+              <li><a href="eshop.html">المتجر</a></li>
+              <li><a href="#">من نحن</a></li>
+              <li><a href="#">المدونة</a></li>
+              <li><a href="#">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="col f3 mb-3">
+            <h3>التصنيفات</h3>
+            <ul class="navbar-nav">
+              <li><a href="#">لابتوب</a></li>
+              <li><a href="#">موبايل</a></li>
+              <li><a href="#">تابلت</a></li>
+              <li><a href="#">ساعات</a></li>
+              <li><a href="#">اكسسوارات</a></li>
+            </ul>
+          </div>
+          <div class="col f4 mb-3">
+            <h3>النشرة البريدية</h3>
+            <p>ابقى على اطلاع دائم بآخر أخبارنا، وعروضنا الحصرية</p>
+            <form action="">
+              <input type="text" placeholder="الايميل" class="form-control" />
+              <button class="btn btn-danger w-100 mt-2">اشترك</button>
+            </form>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 mt-3">
+          <div class="col">
+            <img src="images/payments.png" alt="Payments" />
+          </div>
+          <div class="col text-white text-center d-flex justify-content-end">
+            <p>&copy 2025 Megamart. جميع الحقوق محفوظة</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Off Canvas -->
+
+    <!-- Product Details -->
+    <div
+      class="modal fade"
+      id="quickProduct"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+              سامسونج S23
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="images/products/1.jpg"
+                  alt="سامسونغ"
+                />
+                <button class="btn btn-primary w-100 sbtn1">كافة التفاصيل</button>
+              </div>
+              <div class="col d-flex flex-column justify-content-center">
+                <img
+                  width="40%"
+                  class="mt-3"
+                  src="images/samsung.png"
+                  alt="samsung"
+                />
+                <h1 class="modal-title fs-5 my-2">سامسونغ s23 لون فضي</h1>
+                <p class="product-description">
+                  سامسونغ S23 هو هاتف ذكي متطور يتميز بتصميم أنيق وشاشة AMOLED
+                  مذهلة. يأتي بمعالج قوي، وكاميرا عالية الدقة، وبطارية تدوم
+                  طويلاً. يدعم 5G، ويعمل بنظام أندرويد الأحدث. يوفر تجربة سلسة
+                  مع واجهة مستخدم مريحة، ويتميز بقدرات تصوير احترافية.
+                </p>
+                <div class="quick-reviews mb-2">
+                  <span>تقييمات المستخدمين</span>
+                  <div class="stars mb-2 d-inline-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="price mb-3">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <div class="btns d-flex gap-2">
+                  <div class="btn-group btns-qty">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex gap-1 add-btn">
+                    <button class="btn btn-danger sbtn2">اضافة الى السلة</button>
+                    <button class="btn btn-success sbtn1">شراء الان</button>
+                  </div>
+                </div>
+                <hr />
+                <div class="category mb-2">
+                  <span>التصنيفات:</span>
+                  <a href="#">جوالات سامسونغ</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة:</span>
+                  <div class="share-icons d-inline-flex gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModalToggle2"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
+              Modal 2
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Hide this modal and show the first with the button below.
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle"
+              data-bs-toggle="modal"
+            >
+              Back to first
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasCart"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasCartLabel">سلة المشتريات</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row row-cols-1 row-mini-cart m-1">
+          <div
+            class="col mini-cart d-flex justify-content-between align-items-center"
+          >
+            <img
+              class="img-fluid w-25"
+              src="images/products/1.jpg"
+              alt="samsung"
+            />
+            <p>سامسونغ</p>
+            <div class="btn-group btns-qty-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+          <div
+            class="col mini-cart d-flex justify-content-between align-items-center"
+          >
+            <img
+              class="img-fluid w-25"
+              src="images/products/mobile/iphone13.png"
+              alt="samsung"
+            />
+            <p>ايفون</p>
+            <div class="btn-group btns-qty-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+          <div
+            class="col mini-cart d-flex justify-content-between align-items-center"
+          >
+            <img
+              class="img-fluid w-25"
+              src="images/products/huawai-tablet.png"
+              alt="samsung"
+            />
+            <p>هوواوي</p>
+            <div class="btn-group btns-qty-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <p class="alert alert-danger p-3 my-3 text-center">
+            مجموع المنتجات 250$ فقط لا غير
+          </p>
+          <a href="cart.html">
+            <button class="btn btn-primary w-100">عرض السلة</button>
+          </a>
+          <button class="btn btn-danger w-100">اتمام الطلب</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasLogin"
+      aria-labelledby="offcanvasLoginLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLoginLabel">تسجيل دخول</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mini-login">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">البريد الالكتروني</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">كلمة المرور</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="remember" />
+              <label class="form-check-label" for="remember">تذكرني</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">دخول</button>
+          </form>
+          <div class="alert alert-danger my-3 text-center">
+            <a href="#">انقر هنا في حال نسيت كلمة المرور</a>
+          </div>
+          <hr />
+          <div class="text-center mt-5">
+            <i class="fa-regular fa-user fa-5x"></i>
+            <p>لا يوجد لديك حساب؟</p>
+            <a class="btn btn-danger w-100 text-white" href="#"
+              >انشاء حساب جديد</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

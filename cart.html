@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megamart | Cart</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="top-header d-flex align-items-center py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a href="/">
+                <img width="150" src="images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="البحث عن منتجات"
+              />
+            </div>
+            <div
+              class="col-md-4 left-header d-flex justify-content-end align-items-center d-none d-lg-flex"
+            >
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasCart"
+                role="button"
+                aria-controls="offcanvasCart"
+              >
+                <span>السلة</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasLogin"
+                role="button"
+                aria-controls="offcanvasLogin"
+              >
+                <span>الدخول</span>
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <a href="#">
+                <span>المفضلة</span>
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button
+              class="navbar-toggler menu-icon"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars nav-mobile-icon"></i>
+            </button>
+            <div>
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasLogin"
+                class="navbar-toggler menu-icon"
+                type="button"
+              >
+                <i class="fa-solid fa-user"></i>
+              </button>
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasCart"
+                class="navbar-toggler menu-icon"
+                type="button"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/"
+                    >الرئيسية</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">موبايل</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">لابتوب</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ساعات ذكية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >أجهزة العاب فيديو</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تابلت</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">الاكسسوارات</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Banner -->
+    <section class="banner">
+      <h1 class="category-title">سلة المشتريات</h1>
+    </section>
+    <!-- End Banner -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row row-cols-1 row-mini-cart m-1">
+            <div
+              class="col mini-cart d-flex justify-content-between align-items-center px-3"
+            >
+             <p class="cart-product-title">
+               المنتج
+             </p>
+             <p class="cart-product-title">السعر</p>
+              <p class="cart-product-title">
+                الكمية
+              </p>
+              <p class="cart-product-title">الاجمالي</p>
+            </div>
+            <div
+              class="col mini-cart d-flex justify-content-between align-items-center px-3"
+            >
+             <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+               <img
+                 class="img-fluid"
+                 width="60px"
+                 src="images/products/s23-3.png"
+                 alt="samsung"
+               />
+               <p>سامسونغ جالاكسي S23</p>
+             </div>
+             <p>420$</p>
+              <div class="btn-group btns-qty-mini">
+                <button type="button" class="btn">+</button>
+                <button type="button" class="btn">1</button>
+                <button type="button" class="btn">-</button>
+              </div>
+              <p>420$</p>
+            </div>
+            <div
+              class="col mini-cart d-flex justify-content-between align-items-center px-3"
+            >
+             <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+               <img
+                 class="img-fluid"
+                 width="60px"
+                 src="images/products/tablets/lenovov-tap-p11.png"
+                 alt="samsung"
+               />
+               <p>Lenovo Tap P11 Pro</p>
+             </div>
+             <p>360$</p>
+              <div class="btn-group btns-qty-mini">
+                <button type="button" class="btn">+</button>
+                <button type="button" class="btn">1</button>
+                <button type="button" class="btn">-</button>
+              </div>
+              <p>360$</p>
+            </div>
+            <div
+              class="col mini-cart d-flex justify-content-between align-items-center px-3"
+            >
+             <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+               <img
+                 class="img-fluid"
+                 width="60px"
+                 src="images/products/apple-watch-s8.png"
+                 alt="samsung"
+               />
+               <p>ابل ووتش سيري 8</p>
+             </div>
+             <p>370$</p>
+              <div class="btn-group btns-qty-mini">
+                <button type="button" class="btn">+</button>
+                <button type="button" class="btn">2</button>
+                <button type="button" class="btn">-</button>
+              </div>
+              <p>740$</p>
+            </div>
+          </div>
+          <div class="code d-flex gap-2 mt-3">
+            <input type="text" class="form-control w-25">
+            <button class="btn btn-primary sbtn1">تطبيق الكوبون</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="summary mt-5">
+            <h4 class="cart-product-title mb-3">ملخص سلة المشتريات</h4>
+            <div class="d-flex justify-content-between cart-item">
+              <p>المجموع:</p>
+              <p>1520$</p>
+            </div>
+            <div class="d-flex justify-content-between cart-item">
+              <p>قيمة الخصم:</p>
+              <p>250$</p>
+            </div>
+            <div class="d-flex justify-content-between cart-item">
+              <p>الاجمالي:</p>
+              <p>1270$</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <a href="/">
+                <button class="btn btn-primary sbtn2">العودة للمتجر</button>
+              </a>
+              <a href="checkout.html">
+                <button class="btn btn-danger sbtn1">اتمام الطلب</button>
+              </ش>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Start Footer -->
+     <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col f1 mb-3">
+            <a href="/">
+              <img class="w-75" src="images/logo-white.png" alt="Logo" />
+            </a>
+            <p class="text-white">
+              متجرنا مهتم بالجودة والخامة النظيفة ونسعى لتوفير كل جديد وكل ما
+              يرضي عملائنا
+            </p>
+            <ul class="navbar-nav text-white">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                  عمان - شارع المدينة المنورة
+              </li>
+              <li><i class="fa-solid fa-phone"></i>0795579224</li>
+              <li><i class="fa-solid fa-envelope"></i>info@megamart.com</li>
+            </ul>
+          </div>
+          <div class="col f2 mb-3">
+            <h3>أهم الروابط</h3>
+            <ul class="navbar-nav">
+              <li><a href="/">الرئيسية</a></li>
+              <li><a href="eshop.html">المتجر</a></li>
+              <li><a href="#">من نحن</a></li>
+              <li><a href="#">المدونة</a></li>
+              <li><a href="#">تواصل معنا</a></li>
+            </ul>
+          </div>
+          <div class="col f3 mb-3">
+            <h3>التصنيفات</h3>
+            <ul class="navbar-nav">
+              <li><a href="#">لابتوب</a></li>
+              <li><a href="#">موبايل</a></li>
+              <li><a href="#">تابلت</a></li>
+              <li><a href="#">ساعات</a></li>
+              <li><a href="#">اكسسوارات</a></li>
+            </ul>
+          </div>
+          <div class="col f4 mb-3">
+            <h3>النشرة البريدية</h3>
+            <p>ابقى على اطلاع دائم بآخر أخبارنا، وعروضنا الحصرية</p>
+            <form action="">
+              <input type="text" placeholder="الايميل" class="form-control" />
+              <button class="btn btn-danger w-100 mt-2">اشترك</button>
+            </form>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 mt-3">
+          <div class="col">
+            <img src="images/payments.png" alt="Payments" />
+          </div>
+          <div class="col text-white text-center d-flex justify-content-end">
+            <p>&copy 2025 Megamart. جميع الحقوق محفوظة</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Off Canvas -->
+
+    <!-- Product Details -->
+    <div
+      class="modal fade"
+      id="quickProduct"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+              سامسونج S23
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="images/products/1.jpg"
+                  alt="سامسونغ"
+                />
+                <button class="btn btn-primary w-100">كافة التفاصيل</button>
+              </div>
+              <div class="col d-flex flex-column justify-content-center">
+                <img
+                  width="40%"
+                  class="mt-3"
+                  src="images/samsung.png"
+                  alt="samsung"
+                />
+                <h1 class="modal-title fs-5 my-2">سامسونغ s23 لون فضي</h1>
+                <p class="product-description">
+                  سامسونغ S23 هو هاتف ذكي متطور يتميز بتصميم أنيق وشاشة AMOLED
+                  مذهلة. يأتي بمعالج قوي، وكاميرا عالية الدقة، وبطارية تدوم
+                  طويلاً. يدعم 5G، ويعمل بنظام أندرويد الأحدث. يوفر تجربة سلسة
+                  مع واجهة مستخدم مريحة، ويتميز بقدرات تصوير احترافية.
+                </p>
+                <div class="quick-reviews mb-2">
+                  <span>تقييمات المستخدمين</span>
+                  <div class="stars mb-2 d-inline-flex">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="price mb-3">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <div class="btns d-flex gap-2">
+                  <div class="btn-group btns-qty">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex gap-1 add-btn">
+                    <button class="btn btn-danger">اضافةالى السلة</button>
+                    <button class="btn btn-success">شراء الان</button>
+                  </div>
+                </div>
+                <hr />
+                <div class="category mb-2">
+                  <span>التصنيفات:</span>
+                  <a href="#">جوالات سامسونغ</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة:</span>
+                  <div class="share-icons d-inline-flex gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModalToggle2"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">
+              Modal 2
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Hide this modal and show the first with the button below.
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle"
+              data-bs-toggle="modal"
+            >
+              Back to first
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart -->
+    <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvasCart"
+    aria-labelledby="offcanvasExampleLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasCartLabel">سلة المشتريات</h5>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row row-cols-1 row-mini-cart m-1">
+        <div
+          class="col mini-cart d-flex justify-content-between align-items-center"
+        >
+          <img
+            class="img-fluid w-25"
+            src="images/products/1.jpg"
+            alt="samsung"
+          />
+          <p>سامسونغ</p>
+          <div class="btn-group btns-qty-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div
+          class="col mini-cart d-flex justify-content-between align-items-center"
+        >
+          <img
+            class="img-fluid w-25"
+            src="images/products/mobile/iphone13.png"
+            alt="samsung"
+          />
+          <p>ايفون</p>
+          <div class="btn-group btns-qty-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div
+          class="col mini-cart d-flex justify-content-between align-items-center"
+        >
+          <img
+            class="img-fluid w-25"
+            src="images/products/huawai-tablet.png"
+            alt="samsung"
+          />
+          <p>هوواوي</p>
+          <div class="btn-group btns-qty-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column gap-3">
+        <p class="alert alert-danger p-3 my-3 text-center">
+          مجموع المنتجات 250$ فقط لا غير
+        </p>
+        <a href="cart.html">
+          <button class="btn btn-primary w-100">عرض السلة</button>
+        </a>
+        <button class="btn btn-danger w-100">اتمام الطلب</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- Category Filters -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="cat-filters"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasCartLabel">الفلترة</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="filter-section">
+          <h4 class="filter-title">فلترة بالبحث</h4>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="اكتب اسم المنتج للبحث عنه"
+          />
+          <select name="" id="" class="form-select mt-3">
+            <option value="">حواسيب</option>
+            <option value="">حواسيب</option>
+            <option value="">حواسيب</option>
+            <option value="">حواسيب</option>
+            <option value="">حواسيب</option>
+          </select>
+          <hr />
+          <h4 class="filter-title mt-3">فلترة بالتصنيف</h4>
+          <div class="filter-radio d-flex flex-column gap-1">
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="samsung"
+                class="form-check-input"
+              />
+              <label for="samsung" class="form-label">سامسونغ</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="apple"
+                class="form-check-input"
+              />
+              <label for="apple" class="form-label">ابل</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="hawawie"
+                class="form-check-input"
+              />
+              <label for="hawawie" class="form-label">هواوي</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="nokia"
+                class="form-check-input"
+              />
+              <label for="nokia" class="form-label">Nokia</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="honor"
+                class="form-check-input"
+              />
+              <label for="honor" class="form-label">Honor</label>
+            </div>
+          </div>
+          <hr />
+          <h4 class="filter-title">فلترة بنوع المعالج</h4>
+          <div class="filter-radio d-flex flex-column gap-1">
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="samsung"
+                class="form-check-input"
+              />
+              <label for="samsung" class="form-label">سامسونغ</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="apple"
+                class="form-check-input"
+              />
+              <label for="apple" class="form-label">ابل</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="hawawie"
+                class="form-check-input"
+              />
+              <label for="hawawie" class="form-label">هواوي</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="nokia"
+                class="form-check-input"
+              />
+              <label for="nokia" class="form-label">Nokia</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="category"
+                id="honor"
+                class="form-check-input"
+              />
+              <label for="honor" class="form-label">Honor</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasLogin"
+      aria-labelledby="offcanvasLoginLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLoginLabel">تسجيل دخول</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mini-login">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">البريد الالكتروني</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">كلمة المرور</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="remember" />
+              <label class="form-check-label" for="remember">تذكرني</label>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">دخول</button>
+          </form>
+          <div class="alert alert-danger my-3 text-center">
+            <a href="#">انقر هنا في حال نسيت كلمة المرور</a>
+          </div>
+          <hr />
+          <div class="text-center mt-5">
+            <i class="fa-regular fa-user fa-5x"></i>
+            <p>لا يوجد لديك حساب؟</p>
+            <a class="btn btn-danger w-100 text-white" href="#"
+              >انشاء حساب جديد</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
